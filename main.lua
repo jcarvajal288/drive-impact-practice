@@ -16,6 +16,7 @@ local maxTime = 60
 function love.load()
     love.window.setTitle("Drive Impact Practice")
     love.window.setMode(640, 480)
+    love.window.setVSync(1)
     love.graphics.setBackgroundColor(1,1,1,1)
     font = love.graphics.newFont(200)
     love.graphics.setFont(font)
